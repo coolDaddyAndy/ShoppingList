@@ -23,7 +23,7 @@ final class AboutAppVC: UIViewController {
     private func configureTitleLabel() {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         titleLabel.text = "About the app"
-        titleLabel.font = UIFont(name: "Noteworthy Bold", size: 30)
+        titleLabel.font = UIFont(name: "Apple SD Gothic Neo Bold", size: 30)
         titleLabel.textColor = UIColor(red:0/255, green:128/255, blue:255/255, alpha:1.0)
         titleLabel.textAlignment = .center
         view.addSubview(titleLabel)
@@ -37,8 +37,8 @@ final class AboutAppVC: UIViewController {
     
     private func configureDescriptionLabel() {
         descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
-        descriptionLabel.text = "This app helps you organize your purchases in the form of list. You can add and delete items(by one or all at the time) and get full info about each of them as well. Also there is a search bar you can use in order to find item you need."
-        descriptionLabel.font = UIFont(name: "Noteworthy", size: 27)
+        descriptionLabel.text = "This simple app helps you organize your purchases in the form of list. You can add and delete items(by one or all at the time) and get full info about each of them as well. Also there is a search bar you can use in order to find item you need."
+        descriptionLabel.font = UIFont(name: "Apple SD Gothic Neo Regular", size: 27)
         descriptionLabel.textAlignment = .justified
         descriptionLabel.adjustsFontSizeToFitWidth = true
         descriptionLabel.numberOfLines = 0
