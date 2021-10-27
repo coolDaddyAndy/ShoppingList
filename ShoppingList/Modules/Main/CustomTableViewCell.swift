@@ -17,6 +17,7 @@ class CustomTableViewCell: UITableViewCell {
         } else {
             greenMark.isHidden = true
         }
+        UserDefaults.standard.set(greenMark.isHidden, forKey: "GreenMark")
     }
     
 }
