@@ -37,7 +37,7 @@ final class AboutAppVC: UIViewController {
     
     private func configureDescriptionLabel() {
         descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
-        descriptionLabel.text = "This app helps you organize your purchases in the form of list. You can add and delete items(by one or all at the time) and get full info about each of them as well. Also there is a search bar you can use in order to find item you need."
+        descriptionLabel.text = "This simple app helps you organize your purchases in the form of list. You can add and delete items(by one or all at the time) and get full info about each of them as well. Also there is a search bar you can use in order to find item you need."
         descriptionLabel.font = UIFont(name: "Noteworthy", size: 27)
         descriptionLabel.textAlignment = .justified
         descriptionLabel.adjustsFontSizeToFitWidth = true
